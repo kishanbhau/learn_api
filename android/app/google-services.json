@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676423333551",
+    "project_id": "learn-api-c6515",
+    "storage_bucket": "learn-api-c6515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676423333551:android:94bba74601496c7e35865a",
+        "android_client_info": {
+          "package_name": "com.example.learn_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676423333551-8ck9c8ahbbti69sr0vrdu8q6ap48mlnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB45omrpxmKAyfn-grOixbdtzSO86szZo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676423333551-8ck9c8ahbbti69sr0vrdu8q6ap48mlnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
