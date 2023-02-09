@@ -19,7 +19,7 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
     _pages = [
       ScreenHiddenDrawer(
           ItemHiddenMenu(
-              name: 'Homeghuygtgtutvb',
+              name: 'Discover',
               baseStyle: TextStyle(),
               selectedStyle: TextStyle()),
           Home(),)
@@ -29,27 +29,19 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      body: AppHiddenDrawerMenu (
-            elevationAppBar: 0,
-            styleAutoTittleName:const TextStyle(
-              color: Colors.black
-            ),
-            actionsAppBar: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: CircleAvatar(
-                  child: Image(image: AssetImage('assets/Avatar.jpg'),),
-                ),
-              )
-            ],
-            leadingAppBar:const Image(image: AssetImage('assets/fi_menu.png')) ,
-            backgroundColorAppBar: Colors.transparent,
-            backgroundColorContent:Colors.transparent ,
-            screens: _pages,
-            initPositionSelected: 0,
-            backgroundColorMenu: Colors.white),
-    );
+    return AppHiddenDrawerMenu (
+          elevationAppBar: 0,
+          styleAutoTittleName:const TextStyle(
+            color: Colors.black
+          ),
+          isTitleCentered: true,
+          disableAppBarDefault: true,
+          backgroundColorAppBar: Colors.transparent,
+          backgroundColorContent:Colors.transparent,
+
+          screens: _pages,
+          initPositionSelected: 0,
+          backgroundColorMenu: Colors.white);
 
   }
 }

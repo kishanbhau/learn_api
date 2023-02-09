@@ -92,6 +92,7 @@ class AppHiddenDrawerMenu extends StatelessWidget {
   /// shadow properties on the edge of the drawer
   final List<BoxShadow>? boxShadow;
 
+
   AppHiddenDrawerMenu({
     required this.screens,
     this.initPositionSelected = 0,
@@ -118,6 +119,7 @@ class AppHiddenDrawerMenu extends StatelessWidget {
     this.withShadow = true,
     this.boxShadow,
     this.typeOpen = TypeOpen.FROM_LEFT,
+
   });
 
   @override
