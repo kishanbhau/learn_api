@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_api/detail_page.dart';
 import 'package:learn_api/hiddendrawer.dart';
 import 'package:learn_api/myhome.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           fontFamily: 'Merriweather'
       ),
-      home: const HiddenDrawer(),
+      home: const DetailPage(),
     );
   }
 }

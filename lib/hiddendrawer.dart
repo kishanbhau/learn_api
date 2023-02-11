@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
 import 'package:learn_api/home.dart';
+import 'package:learn_api/myhome.dart';
 import 'package:learn_api/tempdrawer.dart';
 
 
@@ -22,7 +23,14 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
               name: 'Discover',
               baseStyle: TextStyle(),
               selectedStyle: TextStyle()),
-          Home(),)
+          Home(),),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+            name: 'About',
+            baseStyle: TextStyle(),
+            selectedStyle: TextStyle()),
+        MyHome(),
+      ),
     ];
   }
 
@@ -38,10 +46,9 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
           disableAppBarDefault: true,
           backgroundColorAppBar: Colors.transparent,
           backgroundColorContent:Colors.transparent,
-
+          leadingAppBar: const Image(image: AssetImage('assets/fi_menu.png')),
           screens: _pages,
           initPositionSelected: 0,
           backgroundColorMenu: Colors.white);
-
   }
 }

@@ -37,6 +37,8 @@ dependencies:
   hidden_drawer_menu: ^3.0.1
   google_fonts: ^2.0.0
   flutter_rating_bar: ^4.0.1
+  floating_bottom_navigation_bar: ^1.5.2
+  customizable_counter: ^1.0.4
 
 dev_dependencies:
   flutter_test:
